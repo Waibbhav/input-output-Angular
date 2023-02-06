@@ -1,0 +1,6 @@
+<p>parent works!</p>
+<app-child [fromparent]="tochild" (toparent)="fromchild($event)"></app-child>
+
+<h1>parent comp</h1>
+<p>{{messagefromchild}}</p>
+
